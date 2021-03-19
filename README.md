@@ -6,7 +6,7 @@ So far I have learned that:
 
 1. `@rollup/plugin-node-resolve` is needed to resolve the file path for eg. `require('./package.json')`
 2. If bundling TypeScript files, you need to add the file exention to `@rollup/plugin-commonjs`. For example `commonjs(extensions: ['.js', '.ts']})`
-3. `rollup-plugin-polyfill-node `needs options nodePolyfills({ include: null })` to include `process.cwd()`
+3. `rollup-plugin-polyfill-node `needs options `nodePolyfills({ include: null })` to include `process.cwd()`
 4. If you want to bundle `JSON` files you need to add `@rollup/plugin-json`
 
 ## Issues
